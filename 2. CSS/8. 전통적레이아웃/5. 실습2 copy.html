@@ -12,107 +12,102 @@
     <style>
         section {
             width: 800px;
+            border: 3px double #123456;
             margin: 20px auto 0;
-            border: 4px double grey;
-            box-sizing: border-box;
+            color: #333;
         }
 
-        h1 {
-            font: normal bold 2em / 2 cursive, sans-serif;
+        section h1 {
+            font: bold 42px cursive, sans-serif;
+            background: #ccc;
             text-align: center;
-            background: gainsboro;
-            box-sizing: border-box;
+            padding: 20px;
         }
 
-        p.intro {
+        section .intro {
+            font-size: 18px;
+            background: #464141;
+            color: white;
+            border-bottom: 3px solid gray;
             text-align: center;
-            background: black;
-            font: normal normal 1.2em / 2 sans-serif;
-            color: aliceblue;
-            box-sizing: border-box;
+            padding: 10px;
         }
 
-        em {
-            font: normal normal 1.1em / 1 sans-serif;
+        section .intro em {
             color: yellow;
-            box-sizing: border-box;
+            font-size: 1.1em;
         }
 
-        .gallery {
-            background: gray;
-            margin: 0;
-            padding: 10px 0;
-            box-sizing: border-box;
+        section .gallery {
+            background: #6e6a6a;
+            padding: 20px 0;
         }
 
-        li {
-            border: 1px solid white;
-            margin-right: 1%;
+        section .gallery li {
             width: 23.75%;
-            height: 350px;
-            text-align: justify;
+            height: 330px;
+            border: 1px solid #ccc;
+            padding: 5px;
             box-sizing: border-box;
+            margin-right: 1%;
             float: left;
-        }
-
-        li>h2 {
-            border: 1px solid white;
-            margin: 5px 5px;
-            padding: 5px 5px;
-            height: 150px;
-            box-sizing: border-box;
-        }
-        
-        li>p {
-            line-height: 1.3em;
-            font-size: 1em;
-            font-weight: bold;
-            margin-top: 20px;
-            padding: 0 20px;
-            box-sizing: border-box;
-        }
-
-        #tulip {
-            margin-left: 1%;
-            background: red;
-            float: left;
-        }
-
-        #jebi {
-            background: violet;
-            float: left;
-        }
-
-        #hobak {
-            background: coral;
-            float: left;
-        }
-
-        #sunflower {
-            background: yellow;
-            float: left;
-        }
-
-        #tulip h2 {
-            background: url(./images/tulip.jpg) no-repeat center / cover;
-        }
-
-        #jebi h2 {
-            background: url(./images/jebi.jpg) no-repeat center / cover;
-        }
-
-        #hobak h2 {
-            background: url(./images/hobak.jpg) no-repeat 40% / cover;
-        }
-
-        #sunflower h2 {
-            background: url(./images/sunflower.jpg) no-repeat center / cover;
         }
 
         .clearfix::after {
             content: '';
             display: block;
             clear: both;
+        }
+
+        .gallery li h2 {
+            height: 150px;
+            border: 1px solid lightgray;
+            background: #fff;
+        }
+
+        .gallery li p {
+            margin-top: 20px;
+            padding: 0 10px;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 1.3;
+            color: #000;
+        }
+
+        #tulip {
+            margin-left: 1%;
+            background: #d31415;
+        }
+
+        #tulip h2 {
+            background-image: url(./images/tulip.jpg);
+            background-size: cover;
+            background-position: 40%;
+            background-repeat: no-repeat;
+        }
+
+        #jebi {
+            background: #e941f9;
+        }
+
+        #jebi h2 {
+            background: url(./images/jebi.jpg) no-repeat 50% / cover;
+        }
+
+        #hobak {
+            background: #fe692b;
+        }
+
+        #hobak h2 {
+            background: url(./images/hobak.jpg) no-repeat 40% / cover;
+        }
+
+        #sunflower {
+            background: #f3ea33;
+        }
+
+        #sunflower h2 {
+            background: url(./images/sunflower.jpg) no-repeat 20% / cover;
         }
     </style>
 
