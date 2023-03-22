@@ -1,0 +1,100 @@
+@import url(../../common.css);
+
+body {
+    background: gray;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#wrapper h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    background-color: coral;
+    color: white;
+}
+
+#wrapper h1 span {
+    font-size: 12px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+#wrapper h2 {
+    font-size: 12px;
+    text-align: center;
+    background-color: azure;
+}
+
+.container .side-menu {
+    background: whitesmoke;
+    width: 20%;
+    height: 800px;
+    float: left;
+}
+
+.container .side-menu h3 {
+    color: white;
+    background: brown;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.container .side-menu ul {
+    padding: 5px;
+}
+
+.container .side-menu ul li {
+    padding: 5px 0;
+    text-decoration: underline;
+}
+
+.container .banner {
+    background: whitesmoke;
+    width: 20%;
+    height: 800px;
+    float: right;
+    padding: 5px;
+}
+
+.container .main-content {
+    height: 800px;
+    width: 60%;
+    display: inline-block;
+    background: #f5f5f5b7;
+}
+
+.art-piece {
+    padding: 20px 10px;
+}
+
+.art-piece h4 {
+    font-size: 14px;
+    background: #0b0b74;
+    color: white;
+    padding: 5px;
+}
+
+.art-piece .artist {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.art-piece .detail {
+    padding: 5px;
+}
+
+footer {
+    color: white;
+    background: #0b0b74;
+    text-align: center;
+}
+
+footer address {
+    padding: 5px;
+}
